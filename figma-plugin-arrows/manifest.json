@@ -1,0 +1,8 @@
+{
+  "name": "아이디어 보조 어플 - 화면 이동 화살표",
+  "id": "idea-helper-flow-arrows",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": ["figma"],
+  "documentAccess": "dynamic-page"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "idea-helper-server",
+  "version": "0.1.0",
+  "description": "아이디어 보조 어플 API 서버 (Node.js + Fastify + PostgreSQL/pgvector + Gemini)",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "demo": "tsx src/demo.ts",
+    "check": "tsx src/check.ts",
+    "db:copy": "tsx src/db-copy.ts",
+    "test": "node --import tsx --test test/flow.test.ts test/fixes.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "type": "module",
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.9",
+    "@electric-sql/pglite-pgvector": "^0.0.10",
+    "@fastify/cors": "^11.3.1",
+    "@fastify/jwt": "^10.2.4",
+    "dotenv": "^18.0.7",
+    "fastify": "^5.12.7",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/pg": "^8.23.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "private": true
+}
