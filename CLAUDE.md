@@ -43,8 +43,8 @@ IdeaApp/
 │  ├─ architecture_nodejs.pdf      ★ 6주차 아키텍처 "통합본" (최종: React Native + Node.js + PostgreSQL/pgvector + Gemini)
 │  ├─ 아이디어_보조_어플_아키텍처.docx  ⚠ 6주차 초안 (Flutter + Supabase 풀스택 + Claude API) — 통합본에서 바뀜. 구현과 다름
 │  ├─ 노션_정리_2-5주차.md, 노션_정리_6주차.md   주차별 정리 (6주차 = 통합본과 같음)
-│  └─ 와이어프레임.txt, 3부_아키텍처_과제/*.png
-├─ figma-plugin/, figma-plugin-arrows/   화면 설계서 수정 · 화살표 그리기용 Figma 개발 플러그인
+│  ├─ 와이어프레임.txt, 3부_아키텍처_과제/*.png
+│  └─ figma-plugin/, figma-plugin-arrows/   화면 설계서 수정 · 화살표 그리기용 Figma 개발 플러그인
 └─ .claude/launch.json          미리보기 서버 설정 (idea-server: 4000, idea-app-web: 8081)
 ```
 
